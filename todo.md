@@ -1,4 +1,0 @@
-- Create PORT on .env file
-- Deploy to Heroku
-- Finish Readme
-- Create 'part' endpoint??

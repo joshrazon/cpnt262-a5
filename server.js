@@ -27,6 +27,8 @@ db.once('open', function() {
   console.log('Connected to DB...');
 });
 
+app.get('/', (req, res) => res.send('Go to /api/v0/pcparts to see a list of pc parts'))
+
 // Returns a list of pc parts
 app.get('/api/v0/pcparts', (req, res) => {
   Pcpart.find(function(err, data) {
